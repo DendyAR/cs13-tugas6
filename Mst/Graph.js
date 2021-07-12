@@ -55,7 +55,6 @@ class Graph {
 
       // Cek hasil perulangan
       if (distance == Infinity || toVertice === null || fromVertice === null) {
-        // Semua terkoneksi / selesai,.. keluar rekursif
         currVertice = null;
       } else {
         // Push distance terkecil dan push percabangan,.. mengganti currVertice
